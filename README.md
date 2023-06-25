@@ -26,5 +26,5 @@
     <pre><code>rm -r ./cypress/report/mochawesome-report</code></pre>
     <pre><code>rm -r report1.json</code></pre>
 - Execute following command to run all cases as headless and it will generate a report as well as the video
-    <pre><code>npx cypress run</code></pre>
+    <pre><code>npm run test</code></pre>
 Note: I am not adding cypress.env.json to gitignore for now. We can add it as we do not have any sensitive info apart from base url
