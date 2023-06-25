@@ -12,13 +12,13 @@
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false,
-    "start": "2023-06-25T05:54:13.500Z",
-    "end": "2023-06-25T05:54:28.164Z",
-    "duration": 14664
+    "start": "2023-06-25T06:14:06.427Z",
+    "end": "2023-06-25T06:14:20.556Z",
+    "duration": 14129
   },
   "results": [
     {
-      "uuid": "9a843155-697f-4caf-b96f-f6e9d518d2e3",
+      "uuid": "23b72510-7994-4125-bf38-abe2ca6db3c5",
       "title": "",
       "fullFile": "cypress\\e2e\\spec.cy.js",
       "file": "cypress\\e2e\\spec.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b2a26c76-770e-4ad1-b34c-a52ece9e3929",
+          "uuid": "09c505d8-c831-4c57-a075-79e500a83c7d",
           "title": "template spec",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "passes",
               "fullTitle": "template spec passes",
               "timedOut": null,
-              "duration": 2223,
+              "duration": 2292,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(Cypress.env('base_url'));\ncy.contains('get').click();",
               "err": {},
-              "uuid": "dcd9f966-f268-4ddc-b64d-cf7f19c03ae2",
-              "parentUUID": "b2a26c76-770e-4ad1-b34c-a52ece9e3929",
+              "uuid": "152be5d6-3a17-446a-b2e6-2120f93224ac",
+              "parentUUID": "09c505d8-c831-4c57-a075-79e500a83c7d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "dcd9f966-f268-4ddc-b64d-cf7f19c03ae2"
+            "152be5d6-3a17-446a-b2e6-2120f93224ac"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2223,
+          "duration": 2292,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -76,7 +76,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "eea502db-f1f6-4fc5-b252-510c289ed750",
+      "uuid": "eb0eb885-8fce-4ef6-a60d-49a44fbb87ce",
       "title": "",
       "fullFile": "cypress\\e2e\\asertion.cy.js",
       "file": "cypress\\e2e\\asertion.cy.js",
@@ -85,7 +85,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "95a810c6-05be-402e-b82d-227f4e097849",
+          "uuid": "7d1e09a7-f1c5-48f8-9603-7366278fcc6e",
           "title": "Html report test",
           "fullFile": "",
           "file": "",
@@ -96,7 +96,7 @@
               "title": "Use case for report",
               "fullTitle": "Html report test Use case for report",
               "timedOut": null,
-              "duration": 2968,
+              "duration": 2492,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -105,20 +105,20 @@
               "context": null,
               "code": "cy.visit(Cypress.env('base_url'));\ncy.contains('cont').click();",
               "err": {},
-              "uuid": "1107c4af-16df-44c8-92c9-85250895910b",
-              "parentUUID": "95a810c6-05be-402e-b82d-227f4e097849",
+              "uuid": "cef643f2-7edf-452f-a4ee-d5cb53e19b35",
+              "parentUUID": "7d1e09a7-f1c5-48f8-9603-7366278fcc6e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "1107c4af-16df-44c8-92c9-85250895910b"
+            "cef643f2-7edf-452f-a4ee-d5cb53e19b35"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2968,
+          "duration": 2492,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
